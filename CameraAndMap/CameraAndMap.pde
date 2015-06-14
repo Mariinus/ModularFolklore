@@ -1,6 +1,9 @@
 /**
- * Modular Folklore  
- * by Marinus Schepen. 
+ * Color Sorting  
+ * by Ben Fry. 
+ *
+ * Example that sorts all colors from the incoming video
+ * and arranges them into vertical bars.
  */
  
  
@@ -25,11 +28,11 @@ int CLR_YELLOW[] = {160,160,90};
 
 // following are the colors of the dots that visitors see on the screen
 color DRAW_CLR_RED = color(231, 53, 49);
-color DRAW_CLR_BLUE = color(25, 62, 150);
-color DRAW_CLR_MAGENTA = color(248, 78, 133);
-color DRAW_CLR_PURPLE = color(133, 49, 144);
-color DRAW_CLR_GREEN = color(65, 200, 104);
-color DRAW_CLR_YELLOW = color(252, 223, 3);
+color DRAW_CLR_BLUE = color(231, 53, 49);
+color DRAW_CLR_MAGENTA = color(231, 53, 49);
+color DRAW_CLR_PURPLE = color(231, 53, 49);
+color DRAW_CLR_GREEN = color(231, 53, 49);
+color DRAW_CLR_YELLOW = color(231, 53, 49);
 
 float redSmoothed = 0;
 float blueSmoothed = 0;
