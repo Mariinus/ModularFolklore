@@ -27,12 +27,12 @@ int CLR_GREEN[] = {70,120,100};
 int CLR_YELLOW[] = {160,160,90};
 
 // following are the colors of the dots that visitors see on the screen
-color DRAW_CLR_RED = color(255, 0, 0);
-color DRAW_CLR_BLUE = color(0, 0, 255);
-color DRAW_CLR_MAGENTA = color(255, 0, 255);
-color DRAW_CLR_PURPLE = color(120, 80, 130);
-color DRAW_CLR_GREEN = color(0, 255, 0);
-color DRAW_CLR_YELLOW = color(255, 255, 0);
+color DRAW_CLR_RED = color(231, 53, 49);
+color DRAW_CLR_BLUE = color(231, 53, 49);
+color DRAW_CLR_MAGENTA = color(231, 53, 49);
+color DRAW_CLR_PURPLE = color(231, 53, 49);
+color DRAW_CLR_GREEN = color(231, 53, 49);
+color DRAW_CLR_YELLOW = color(231, 53, 49);
 
 float redSmoothed = 0;
 float blueSmoothed = 0;
@@ -56,12 +56,12 @@ PImage map;
 PShape location;
 
 // CHANGE THE LOCATION OF CONTINENT-DOTS (relative to screen)
-RelativePoint2D northAmerica = new RelativePoint2D(0.25,0.25);
-RelativePoint2D europe = new RelativePoint2D(0.5,0.25);
-RelativePoint2D asia = new RelativePoint2D(0.75,0.25);
-RelativePoint2D southAmerica = new RelativePoint2D(0.25,0.75);
-RelativePoint2D africa = new RelativePoint2D(0.5,0.75);
-RelativePoint2D oceania = new RelativePoint2D(0.75,0.75);
+RelativePoint2D northAmerica = new RelativePoint2D(0.21,0.317);
+RelativePoint2D europe = new RelativePoint2D(0.487,0.31);
+RelativePoint2D asia = new RelativePoint2D(0.70,0.33);
+RelativePoint2D southAmerica = new RelativePoint2D(0.296,0.66);
+RelativePoint2D africa = new RelativePoint2D(0.525,0.515);
+RelativePoint2D oceania = new RelativePoint2D(0.822,0.67);
 
 RelativePoint2D combinedLocation = new RelativePoint2D(0.5,0.5);
 
