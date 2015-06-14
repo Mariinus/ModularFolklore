@@ -87,7 +87,7 @@ void setup() {
     // The camera can be initialized directly using an 
     // element from the array returned by list():
 //      video = new Capture(this, 160, 120);
-    video = new Capture(this, 160, 120, "Trust Webcam #2", 30);// CHECK IF THIS IS THE NAME OF YOUR CAMERA (it is printed in the console)
+    video = new Capture(this, 160, 120, "Trust Webcam", 30);// CHECK IF THIS IS THE NAME OF YOUR CAMERA (it is printed in the console)
     video.start();     
   }  
   int count = (video.width * video.height) / (increment * increment);
