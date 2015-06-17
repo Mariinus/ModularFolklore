@@ -197,8 +197,10 @@ void draw() {
                         (map(green,0,max,0,1) * africa.y) + 
                         (map(yellow,0,max,0,1) * oceania.y) );
                         
-    combinedLocation.x = combinedLocation.x * smoothLocation + currentCombined.x * (1.0-smoothLocation);
-    combinedLocation.y = combinedLocation.y * smoothLocation + currentCombined.y * (1.0-smoothLocation);
+    if(currentCombined.x > 0 && currentCombined.x < 1 &&  currentCombined.y > 0 && currentCombined.y < 1){                 
+      combinedLocation.x = combinedLocation.x * smoothLocation + currentCombined.x * (1.0-smoothLocation);
+      combinedLocation.y = combinedLocation.y * smoothLocation + currentCombined.y * (1.0-smoothLocation);
+    }
     
     
     if (cheatScreen) {
