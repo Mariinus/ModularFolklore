@@ -105,8 +105,8 @@ void setup() {
   }  
   
   debugfont = createFont("Helvetica", 12); // access your system fonts like this
-  mediumfont = createFont("inconsolata.ttf", 24); // exchange "inconsolata.tff" with your favourite custom font file. put the font in the data folder (where also inconsolata.ttf is)
-  bigfont = createFont("inconsolata.ttf", 36); // same here. the number after the fontname is the size.
+  mediumfont = createFont("Union-Regular.otf", 18); // exchange "inconsolata.tff" with your favourite custom font file. put the font in the data folder (where also inconsolata.ttf is)
+  bigfont = createFont("Union-Regular.otf", 44); // same here. the number after the fontname is the size.
   textFont(bigfont);
 
 
@@ -116,10 +116,10 @@ void setup() {
   background(231,53,49);
 
   // CHANGE THIS: shift around the unique territory to your pleasure
-  yourTerritoryYPos = height - 80;
-  yourTerritoryXPos = width - 560;
-  uniqueTerritoryYPos = height - 30;
-  uniqueTerritoryXPos = width - 560;
+  yourTerritoryYPos = height - 70;
+  yourTerritoryXPos = width - 440;
+  uniqueTerritoryYPos = height - 27;
+  uniqueTerritoryXPos = width - 390;
  
 }
 
@@ -253,7 +253,7 @@ void draw() {
 
     textFont(mediumfont);
     fill(255,255,255);
-    text("YOUR TERRITORY:",yourTerritoryXPos, yourTerritoryYPos);
+    text("THE FOLK OF:",yourTerritoryXPos, yourTerritoryYPos);
 
     textFont(bigfont);
 
